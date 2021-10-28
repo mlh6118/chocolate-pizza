@@ -19,8 +19,8 @@
 <body>
   <div class="container">
   <header>
-    <div id="logo">
-      <span class="fa-stack fa-2x">
+    <div class="logo">
+      <span id="logotop" class="fa-stack fa-2x">
         <i class="fas fa-square fa-stack-2x"></i>
         <i class="fas fa-utensils fa-stack-1x fa-inverse"></i>
       </span>
@@ -53,6 +53,7 @@
 
 
   <main>
+    <div class="container">
     <div>
       <h1 class="title">
         Chocolate Pizza
@@ -72,7 +73,7 @@
   </div>
     <div>
     <img src="img/choco-pizza.png"
-      alt="A round disc of white chocolate topped with hemispheres of milk cocolate, cut up candy bar, and a few colorful candies.">
+      alt="A round disc of white chocolate topped with hemispheres of milk cocolate, cut up candy bar, and a few colorful candies." style="width: 100%;">
 
     <p>
       For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of
@@ -91,8 +92,11 @@
       two hours before serving.
     </p>
   </div>
+</div>
+<div class="container">
     <div id="holder">
-    <img src="img/list-bg.png">
+      <div class="container"></div>
+    <img src="img/list-bg.png" style="width: 100%;">
     <ul id="left">
       <li><input type="checkbox">1 1/2 cups heavy cream</li>  
       <li class="line"><input type="checkbox" checked>1/3 granulated sugar</li>
@@ -109,28 +113,33 @@
       <li><input type="checkbox">1/2 cup brown sugar</li>
       <li><input type="checkbox">2-4 tbsp water</li>
       
-      
-    
     </ul>
   </div>
-
+</div>
     <img src="img/van-pic.png">
+    <button id="share">SHARE RECIPE</button>
     <p>
       Vanessa Stevenson
     </p>
     <p>
-      Food enthursiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
+      Food enthursiast, photography fan. Add a pinch of raw foodism and that's <br>
+      pretty much who I am.
     </p>
-    <button>SHARE RECIPE</button>
+    
   </main>
 
   <footer>
-    <i class="fas fa-utensils"></i>
-    <p>
+    <div class="logo" >
+      <div id="logo2" class="fa-stack fa-1x">
+        <i id="logo3" class="fas fa-square fa-stack-2x"></i>
+        <i id="logo4" class="fas fa-utensils fa-stack-2x fa-inverse"></i>
+      </div>
+    <p id="footer-text">
       Delicious &copy; 2013 &; All Rights Reserved.<br />
       Proudly published with Ghost.
     </p>
   </footer>
+</div>
 </div>
 </body>
 

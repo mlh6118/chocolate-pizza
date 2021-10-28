@@ -3,6 +3,7 @@
 
 }
 
+
 header {
     
     display: flex;
@@ -22,7 +23,7 @@ header {
     
 }
 
-#logo {
+.logo {
    display: flex;
    
 }
@@ -82,6 +83,31 @@ hr {
   #chocolate {
     font-family: 'News Cycle', sans-serif;
   }
+
+  #share {
+      float: right;
+      background-color: salmon;
+      color: white;
+      width: 10rem;
+      height: 2.5rem;
+      margin-top: 5rem;
+      
+  }
+
+  /* .fa-stack {
+    display: block;
+    height: 2em;
+    line-height: 2em;
+    position: inherit;
+    vertical-align: middle;
+    width: 2.5em;
+  } */
+
+  #footer-text {
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+    }
+  
 
 https://fonts.google.com/specimen/Italianno?preview.text=Delicious&preview.text_type=custom
 
