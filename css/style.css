@@ -110,9 +110,12 @@ hr {
   } */
 
   #footer-text {
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-        
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
     }
   
 p {
@@ -137,6 +140,18 @@ h2 {
 
 #textbottom {
     margin-bottom: 4rem;
+}
+
+#choco {
+    margin-bottom: 1.5rem;
+}
+
+#textbottom2 {
+    margin-bottom: 2rem;
+}
+
+#logo3 {
+    color: darkgrey;
 }
 
 https://fonts.google.com/specimen/Italianno?preview.text=Delicious&preview.text_type=custom
