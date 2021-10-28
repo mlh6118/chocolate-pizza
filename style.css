@@ -1,3 +1,51 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#toptext {
+    font-family: 'Yellowtail', cursive;
+
+}
+
+.title {
+    
+    
+    
+    font-size: 30px;
+    
+}
+
+#logo {
+   display: flex;
+   
+}
+
+
+#icons {
+    /* text-align: right; */
+    position: relative;
+    float: right;
+}
+
+#delicious {
+    display: flex;
+    flex-direction: column;  
+    padding-top: 0.4rem;
+
+}
+
+hr {
+    border: 15px solid transparent;
+    padding: 15px;   
+    border-image: url(img/hr-img.png);
+    border-image-slice: 30;
+    border-image-repeat:repeat;
+    
+}
+
+#
+
 https://fonts.google.com/specimen/Italianno?preview.text=Delicious&preview.text_type=custom
 
 https://fonts.google.com/specimen/Fira+Sans+Extra+Condensed?preview.text=Chocolate%20Piz&preview.text_type=custom
@@ -5,4 +53,5 @@ https://fonts.google.com/specimen/Fira+Sans+Extra+Condensed?preview.text=Chocola
 https://fonts.google.com/specimen/Handlee?preview.text=Figs&preview.text_type=custom
 
 https://fonts.google.com/specimen/Rufina?preview.text=Vanessa&preview.text_type=custom#standard-styles
+
 
