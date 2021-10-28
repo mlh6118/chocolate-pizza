@@ -4,14 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
-  <link href="reset.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
+  <link href="/css/reset.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="/css/style.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/72e56642be.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Yellowtail&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Yellowtail&display=swap&family=News+Cycle:wght@700" rel="stylesheet">
 
 </head>
 
 <body>
+  <div class="container">
   <header>
     <div id="logo">
       <span class="fa-stack fa-2x">
@@ -58,10 +64,13 @@
         POSTED ON 15 DEC 2013 / DESSERTS
       </h2>
     </div>
+    <div id="print">
     <p>
       <i class="fas fa-print"></i>
       PRINT
     </p>
+  </div>
+    <div>
     <img src="img/choco-pizza.png"
       alt="A round disc of white chocolate topped with hemispheres of milk cocolate, cut up candy bar, and a few colorful candies.">
 
@@ -81,23 +90,29 @@
       process for +/- 10 minutes. Pour semi-frozen mixture into a Pyrex dish or glass Tupperware. Freeze for at least
       two hours before serving.
     </p>
-
+  </div>
+    <div id="holder">
     <img src="img/list-bg.png">
-
-    <ul>
-      <li>1 1/2 cups milk</li>
-      <li>1/2 cup mascarpone</li>
-      <li>1/2 tsp pink salt</li>
-      <li>1/lb Black Mission Figs</li>
-      <li>1/2 cup brown sugar</li>
-      <li>2-4 tbsp water</li>
-      <li>1 1/2 cups heavy cream</li>
-      <li>1/3 granulated sugar</li>
-      <li>2 egg yolks</li>
-      <li>1 lemon, juiced</li>
-      <li>2 tbsp butter</li>
-      <li>1 cup honey roasted pecans, roughly chopped</li>
+    <ul id="left">
+      <li><input type="checkbox">1 1/2 cups heavy cream</li>  
+      <li class="line"><input type="checkbox" checked>1/3 granulated sugar</li>
+      <li class="line"><input type="checkbox" checked>2 egg yolks</li>
+      <li><input type="checkbox">1 lemon, juiced</li>
+      <li><input type="checkbox">2 tbsp butter</li>
+      <li><input type="checkbox">1 cup honey roasted pecans, roughly chopped</li>
     </ul>
+  <ul id="right">
+    <li><input type="checkbox">1 1/2 cups milk</li>
+    <li><input type="checkbox">1/2 cup mascarpone</li>
+    <li><input type="checkbox">1/2 tsp pink salt</li>
+    <li><input type="checkbox">1/lb Black Mission Figs</li>
+      <li><input type="checkbox">1/2 cup brown sugar</li>
+      <li><input type="checkbox">2-4 tbsp water</li>
+      
+      
+    
+    </ul>
+  </div>
 
     <img src="img/van-pic.png">
     <p>
@@ -116,6 +131,7 @@
       Proudly published with Ghost.
     </p>
   </footer>
+</div>
 </body>
 
 </html>

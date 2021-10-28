@@ -1,4 +1,10 @@
+* {
+    box-sizing: border-box;
+
+}
+
 header {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,7 +50,38 @@ hr {
     
 }
 
-#
+#holder {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+ #right {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+  }
+ #left {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+  }
+
+  .line {
+    text-decoration: line-through;
+  }
+
+  #print {
+      float: right;
+  }
+
+  h2 {
+     font-size: small;
+  }
+
+  #chocolate {
+    font-family: 'News Cycle', sans-serif;
+  }
 
 https://fonts.google.com/specimen/Italianno?preview.text=Delicious&preview.text_type=custom
 
