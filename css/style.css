@@ -79,10 +79,15 @@ hr {
 
   h2 {
      font-size: small;
+     color: grey;
   }
 
   #chocolate {
     font-family: 'News Cycle', sans-serif;
+  }
+
+  #pic {
+      float: left;
   }
 
   #share {
@@ -91,7 +96,7 @@ hr {
       color: white;
       width: 10rem;
       height: 2.5rem;
-      margin-top: 5rem;
+      margin-top: .5rem;
       
   }
 
@@ -112,6 +117,7 @@ hr {
 p {
     color: grey;
     font-family: 'Rufina', serif;
+    margin-bottom: 0rem;
 }
 
 em {
@@ -126,6 +132,10 @@ h1 {
 
 h2 {
     margin-bottom: 1rem;
+}
+
+#textbottom {
+    margin-bottom: 2rem;
 }
 
 https://fonts.google.com/specimen/Italianno?preview.text=Delicious&preview.text_type=custom
